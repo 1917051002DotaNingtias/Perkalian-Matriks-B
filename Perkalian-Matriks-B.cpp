@@ -8,3 +8,5 @@ using namespace std;
     cin >> m;
     cout << "Masukkan jumlah kolom matriks pertama:"; 
     cin >> n; 
+    cout << "Masukkan jumlah baris matriks kedua:"; 
+    cin >> p;
