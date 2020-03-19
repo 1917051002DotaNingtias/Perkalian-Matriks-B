@@ -21,4 +21,9 @@ using namespace std;
         cin >> matriks1[i][j];
       }
     }
-      
+  cout << "Masukkan elemen matriks kedua: "<<endl;
+    for(i = 0; i < c; i++){
+      for(j = 0; j < d; j++){
+        cin >> matriks2[i][j];
+      }
+    }
