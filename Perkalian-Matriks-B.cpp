@@ -3,12 +3,4 @@ using namespace std;
   
   int main(){
     int matriks1[100][100], matriks2[100][100], hasil[100][100];
-    int i, j, k, m, n, p, q, jumlah = 0; 
-    cout << "Masukkan jumlah baris matriks pertama:";
-    cin >> m;
-    cout << "Masukkan jumlah kolom matriks pertama:"; 
-    cin >> n; 
-    cout << "Masukkan jumlah baris matriks kedua:"; 
-    cin >> p;
-    cout << "Masukkan jumlah kolom matriks kedua:"; 
-    cin >> q; 
+   
