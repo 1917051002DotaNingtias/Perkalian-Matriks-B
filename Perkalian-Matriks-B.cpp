@@ -30,3 +30,15 @@ using namespace std;
     for(i = 0; i < a; i++){
       for(j = 0; j < d; j++){
         for(k = 0; k < c; k++){
+          
+          jumlah = jumlah + matriks1[i][k] * matriks2[k][j];
+        }
+        hasil[i][j] = jumlah;
+        jumlah = 0;
+      }
+    }
+
+   
+  return 0;
+}
+ 
