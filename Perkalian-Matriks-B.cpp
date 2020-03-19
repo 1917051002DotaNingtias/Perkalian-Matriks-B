@@ -6,3 +6,5 @@ using namespace std;
     int i, j, k, m, n, p, q, jumlah = 0; 
     cout << "Masukkan jumlah baris matriks pertama:";
     cin >> m;
+    cout << "Masukkan jumlah kolom matriks pertama:"; 
+    cin >> n; 
