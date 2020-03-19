@@ -36,7 +36,16 @@ using namespace std;
         hasil[i][j] = jumlah;
         jumlah = 0;
       }
+    } cout << "Hasil perkalian matriks: "<<endl;
+    for(i = 0; i < a; i++){
+      for(j = 0; j < b; j++){
+        cout << hasil[i][j] << "\t";
+      }
+      cout << endl;
     }
+
+  }
+
 
    
   return 0;
