@@ -27,6 +27,6 @@ using namespace std;
         cin >> matriks2[i][j];
       }
     }
-        for(i = 0; i < a; i++){
+    for(i = 0; i < a; i++){
       for(j = 0; j < d; j++){
         for(k = 0; k < c; k++){
