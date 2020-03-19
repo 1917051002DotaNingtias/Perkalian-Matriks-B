@@ -10,3 +10,5 @@ using namespace std;
     cin >> n; 
     cout << "Masukkan jumlah baris matriks kedua:"; 
     cin >> p;
+    cout << "Masukkan jumlah kolom matriks kedua:"; 
+    cin >> q; 
