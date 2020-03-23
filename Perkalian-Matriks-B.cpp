@@ -42,17 +42,12 @@ void hasill (int *h)
     }
 
     cout << "Masukkan elemen matriks kedua: "<<endl;
-
     for(i = 0; i < c; i++){
-
       for(j = 0; j < d; j++){
-
         cin >> *(*(pM2+i)+j);
-
       }
-
     }
-    }
+    
     for(i = 0; i < a; i++){
       for(j = 0; j < d; j++){
         for(k = 0; k < c; k++){
