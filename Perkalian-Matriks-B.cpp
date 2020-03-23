@@ -24,8 +24,15 @@ void hasill (int *h)
   int (*pM1)[100] = matriks1;
   int matriks2[100][100];
   int (*pM2)[100] = matriks2;
-
-  
+      
+  cout << "Masukkan jumlah baris matriks pertama: ";
+  cin >> a;
+  cout << "Masukkan jumlah kolom matriks pertama: ";
+  cin >> b;
+  cout << "Masukkan jumlah baris matriks kedua: ";
+  cin >> c;
+  cout << "Masukkan jumlah kolom matriks kedua: ";
+  cin >> d;
     
     if(b != c){
 
