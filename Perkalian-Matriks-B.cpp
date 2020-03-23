@@ -18,15 +18,11 @@ void hasill (int *h)
  int main()
 
 {
-
     cout << " \t >>>>>>>>>>>PERKALIAN MATRIKS<<<<<<<<<<<<<" << endl << endl;
 
   int matriks1[100][100];
-
   int (*pM1)[100] = matriks1;
-
   int matriks2[100][100];
-
   int (*pM2)[100] = matriks2;
 
   cout << "Masukkan jumlah baris matriks pertama: ";
