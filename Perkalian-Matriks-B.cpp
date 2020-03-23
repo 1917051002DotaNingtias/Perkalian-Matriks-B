@@ -36,13 +36,9 @@ void hasill (int *h)
     cout << "Masukkan elemen matriks pertama: "<<endl;
 
     for(i = 0; i < a; i++){
-
       for(j = 0; j < b; j++){
-
         cin >> *(*(pM1+i)+j);
-
       }
-
     }
 
     cout << "Masukkan elemen matriks kedua: "<<endl;
