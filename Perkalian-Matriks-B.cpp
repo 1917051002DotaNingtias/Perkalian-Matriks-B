@@ -26,20 +26,36 @@ void hasill (int *h)
   cin >> c;
   cout << "Masukkan jumlah kolom matriks kedua: ";
   cin >> d;
+    
     if(b != c){
+
     cout << "Matriks tidak dapat dikalikan satu sama lain"<<endl;
+
   } else {
+
     cout << "Masukkan elemen matriks pertama: "<<endl;
+
     for(i = 0; i < a; i++){
+
       for(j = 0; j < b; j++){
-        cin >> matriks1[i][j];
+
+        cin >> *(*(pM1+i)+j);
+
       }
+
     }
-  cout << "Masukkan elemen matriks kedua: "<<endl;
+
+    cout << "Masukkan elemen matriks kedua: "<<endl;
+
     for(i = 0; i < c; i++){
+
       for(j = 0; j < d; j++){
-        cin >> matriks2[i][j];
+
+        cin >> *(*(pM2+i)+j);
+
       }
+
+    }
     }
     for(i = 0; i < a; i++){
       for(j = 0; j < d; j++){
