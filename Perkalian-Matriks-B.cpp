@@ -52,5 +52,16 @@ void hasill (int *h)
         jumlah = 0;
       }
     }
+      cout << "Hasil perkalian matriks: "<<endl;
+    for(i = 0; i < a; i++){
+      hasill (&i);
+
+    }
+
+  }
+
+  return 0;
+}
+
 
     
