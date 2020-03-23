@@ -1,9 +1,23 @@
 #include <iostream>
 using namespace std;
-  
+
+int i, j, k, a, b, c, d, jumlah = 0;
+int hasil[100][100];
+
+
+
+void hasill(int *);
+void hasill (int *h)
+{
+  for(j = 0; j < d; j++){
+        cout << *(*(hasil+*h)+j) << "\t";
+      }
+      cout << endl;
+}
+
   int main(){
-  int matriks1[100][100], matriks2[100][100], hasil[100][100];
-  int i, j, k, a, b, c, d, jumlah = 0;
+  int matriks1[100][100], matriks2[100][100];
+  
   cout << "Masukkan jumlah baris matriks pertama: ";
   cin >> a;
   cout << "Masukkan jumlah kolom matriks pertama: ";
